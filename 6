@@ -1,0 +1,11 @@
+n = int(input('Введите целое положительное число: '))
+a = []
+if n < 0:
+        print('Error')
+else:
+        while n != 0:
+            a.append(n % 10)
+            n = n // 10
+a.reverse()
+
+print(a)
